@@ -1,15 +1,4 @@
-import {
-  AbsoluteCenter,
-  Box,
-  Center,
-  Container,
-  Divider,
-  Flex,
-  Heading,
-  Spacer,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import { Center, Divider, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 
 export default function Home() {
   return (

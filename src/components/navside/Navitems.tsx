@@ -1,7 +1,7 @@
 import { List, ListItem, Icon, Flex, Text, Link } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 import { NavLink } from "react-router-dom";
-import { NavHashLink } from "react-router-hash-link";
+// import { NavHashLink } from "react-router-hash-link";
 export interface SidenavItem {
   icon: IconType;
   label: string;
@@ -13,7 +13,7 @@ export interface NavitemsProps {
   mode?: "semi" | "over";
 }
 
-export function Navitems({ navItems, mode = "semi" }: NavitemsProps) {
+export function Navitems({ navItems }: NavitemsProps) {
   const sidebarItemInOverMode = (item: SidenavItem, index: number) => (
     <ListItem key={index}>
       <Link
