@@ -9,18 +9,30 @@ const theme = extendTheme({
     transparent: "transparent",
     black: "#000",
     white: "#fff",
-    gray: {
-      50: "#f7fafc",
-      900: "#171923",
+    brand: {
+      blue: "#0A1828",
+      turquoise: "#178582",
+      gold: "#BFA181",
     },
   },
-  breakpoints: {
-    base: "0em",
-    sm: "30em",
-    md: "48em",
-    lg: "62em",
-    xl: "80em",
-    "2xl": "96em",
+  components: {
+    Text: {
+      baseStyle: {
+        fontWeight: "normal ",
+        color: "#BFA181",
+      },
+    },
+    Icon: {
+      baseStyle: {
+        color: "#BFA181",
+      },
+    },
+    Flex: {
+      baseStyle:{
+        width: '100%',
+        height: '100%'
+      }
+    }
   },
 });
 export default theme;

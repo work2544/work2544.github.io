@@ -3,8 +3,7 @@ import { Center, Divider, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 export default function Work() {
   return (
     <Flex
-      width={"100%"}
-      height={"100vh"}
+      
       alignContent={"center"}
       justifyContent={"center"}
       direction={"column"}
