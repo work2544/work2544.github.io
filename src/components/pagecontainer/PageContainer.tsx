@@ -1,4 +1,4 @@
-import { Divider, Grid, GridItem } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "../navbar/navbar";
 import { ReactNode } from "react";
 interface PageContainerProps {

@@ -1,6 +1,5 @@
 import { NavitemsProps, NavItemType } from "@/assets/routeItems";
-import { Flex, Text, Link, Box, Container, Divider } from "@chakra-ui/react";
-import React from "react";
+import { Flex, Text, Link, Box } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 // import { NavHashLink } from "react-router-hash-link";
 

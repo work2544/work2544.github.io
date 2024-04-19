@@ -1,15 +1,10 @@
+import { NavitemsProps, NavItemType } from "@/assets/routeItems";
 import { List, ListItem, Icon, Flex, Text, Link } from "@chakra-ui/react";
-import { IconType } from "react-icons";
 import { NavLink } from "react-router-dom";
 // import { NavHashLink } from "react-router-hash-link";
 
-
-export interface NavitemsProps {
-  navItems: SidenavItem[];
-}
-
 export function NavSideItems({ navItems }: NavitemsProps) {
-  const renderItems = (item: SidenavItem, index: number) => (
+  const renderItems = (item: NavItemType, index: number) => (
     <ListItem key={index}>
       <Link
         display="block"

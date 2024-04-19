@@ -6,9 +6,6 @@ const theme = extendTheme({
     body: `'Raleway', sans-serif`,
   },
   colors: {
-    transparent: "transparent",
-    black: "#000",
-    white: "#fff",
     brand: {
       blue: "#0A1828",
       turquoise: "#178582",
@@ -16,10 +13,15 @@ const theme = extendTheme({
     },
   },
   components: {
+    Heading:{
+      baseStyle: {
+        color: "brand.turquoise",
+      },
+    },
     Text: {
       baseStyle: {
         fontWeight: "normal ",
-        color: "#BFA181",
+        color: "brand.gold",
       },
     },
     Icon: {
